@@ -10,23 +10,23 @@ Activation functions are used to create non-linear variations in neural networks
 
 ## **Here are some examples of activation functions:**
 
-**Tanh (Hyperbolic Tangent)**
+1. **Tanh (Hyperbolic Tangent)**
 
 This function outputs values between -1 and 1. It's often used in recurrent neural networks (RNNs) and long short-term memory networks (LSTMs). 
 
-**Sigmoid**
+2. **Sigmoid**
 
 This function uses a real value as an input and generates another value between 0 and 1 as the output. It's widely used in classification problems. 
 
-**Linear**
+3. **Linear**
 
 This function is also referred to as "no activation" or "identity function". It's a function where the activation is directly proportional to the input. 
 
-**Softmax**
+4. **Softmax**
 
 This function is used for multi-class classification problems where class membership is required on more than two class labels. It forces the values of output neurons to take values between zero and one. 
 
-**Binary Step**
+5. **Binary Step**
 
 This function compares the input value to a threshold value. If the input value is greater than the threshold value, the neuron is activated. 
 
