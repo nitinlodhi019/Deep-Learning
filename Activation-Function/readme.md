@@ -28,3 +28,7 @@ This function is used for multi-class classification problems where class member
 **Binary Step**
 
 This function compares the input value to a threshold value. If the input value is greater than the threshold value, the neuron is activated. 
+
+
+![image](https://github.com/user-attachments/assets/3e5843a9-7472-43ee-9580-631227408c59)
+
