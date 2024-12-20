@@ -1,4 +1,4 @@
-**Activation Function**
+***Activation Function***
 
 An activation function is a mathematical equation that determines if a neuron should be activated in a neural network: 
 
