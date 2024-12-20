@@ -2,9 +2,9 @@
 
 An activation function is a mathematical equation that determines if a neuron should be activated in a neural network: 
 
-**Calculates the weighted sum of inputs**: The function calculates the weighted sum of the inputs.
+* Calculates the weighted sum of inputs: The function calculates the weighted sum of the inputs.
 
-**Applies a transformation**: The function applies a specific transformation to the weighted sum of the inputs.
+* Applies a transformation: The function applies a specific transformation to the weighted sum of the inputs.
 
 Activation functions are used to create non-linear variations in neural networks. They help the system learn and execute difficult tasks, making the neural network more powerful. 
 
