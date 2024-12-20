@@ -2,13 +2,13 @@
 
 An activation function is a mathematical equation that determines if a neuron should be activated in a neural network: 
 
-* Calculates the weighted sum of inputs: The function calculates the weighted sum of the inputs.
+* **Calculates the weighted sum of inputs:** The function calculates the weighted sum of the inputs.
 
-* Applies a transformation: The function applies a specific transformation to the weighted sum of the inputs.
+* **Applies a transformation:** The function applies a specific transformation to the weighted sum of the inputs.
 
 Activation functions are used to create non-linear variations in neural networks. They help the system learn and execute difficult tasks, making the neural network more powerful. 
 
-**Here are some examples of activation functions:**
+## **Here are some examples of activation functions:**
 
 **Tanh (Hyperbolic Tangent)**
 
@@ -21,6 +21,7 @@ This function uses a real value as an input and generates another value between 
 **Linear**
 
 This function is also referred to as "no activation" or "identity function". It's a function where the activation is directly proportional to the input. 
+
 **Softmax**
 
 This function is used for multi-class classification problems where class membership is required on more than two class labels. It forces the values of output neurons to take values between zero and one. 
