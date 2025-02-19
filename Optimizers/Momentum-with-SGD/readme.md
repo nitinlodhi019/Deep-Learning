@@ -4,7 +4,7 @@ SGD - Stochastic Gradient Descent
 
 In deep learning, "momentum optimization" is a technique that improves the convergence speed of gradient descent algorithms by accumulating information from past gradients, essentially creating inertia to move more smoothly towards the global minimum, reducing oscillations and allowing for faster learning, especially in complex loss landscapes with many local minima and saddle points; it's like adding "momentum" to a ball rolling downhill, making it accelerate in the correct direction instead of getting stuck in small dips and turns. 
 
-[![Uploading image.png…]()](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdatascience.stackexchange.com%2Fquestions%2F84167%2Fwhat-is-momentum-in-neural-network&psig=AOvVaw2YvuIz97lq5UZam6-P3BkK&ust=1740071992083000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDW0rqf0IsDFQAAAAAdAAAAABAE)
+https://i.sstatic.net/epW89.jpg
 
 
 **Key points about momentum optimization**
