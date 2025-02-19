@@ -6,7 +6,9 @@ In deep learning, "momentum optimization" is a technique that improves the conve
 
 ![Uploading image.png…]()
 
+* Momentum prevents stalling of the optimization process that is much more likely to occur for stochastic gradient descent.
 
+* The effective number of gradients is given by 1/(1-B) due to exponentiated downweighting of past data.
 
 **Key points about momentum optimization**
 
