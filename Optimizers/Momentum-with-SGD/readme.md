@@ -12,7 +12,7 @@ Instead of relying solely on the current gradient to update parameters, momentum
 
 **Mathematical intuition**
 
-*Velocity term:*
+* **Velocity term:** *
 A "velocity" variable is introduced to store the exponentially weighted average of past gradients. 
 
 *Update equation:*
