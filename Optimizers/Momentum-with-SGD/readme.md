@@ -12,26 +12,26 @@ Instead of relying solely on the current gradient to update parameters, momentum
 
 **Mathematical intuition**
 
-* **Velocity term:** *
+* **Velocity term:** 
 A "velocity" variable is introduced to store the exponentially weighted average of past gradients. 
 
-*Update equation:*
+* **Update equation:**
 When updating parameters, the current gradient is added to the scaled velocity term, giving more weight to recent gradients. 
 
 **Benefits**
 
-*Faster convergence:*
+* **Faster convergence:**
 Momentum significantly reduces the number of training iterations needed to reach a good solution. 
 
-*Reduces oscillations:*
+* **Reduces oscillations:**
 By averaging out noisy gradients, momentum helps avoid getting stuck in local minima or oscillating between different directions.
 
-*Better handling of saddle points:*
+* **Better handling of saddle points:**
 In regions with flat gradients (saddle points), momentum can provide a direction to move towards the global minimum. 
 
 **Hyperparameter**
 
-*Momentum coefficient (β):*
+* **Momentum coefficient (β):**
 Controls how much influence past gradients have on the current update. A higher β means more emphasis on past gradients, potentially leading to faster convergence but also risking overshooting the optimal point. 
 
 **Example application**
