@@ -1,3 +1,5 @@
+research paper - https://paperswithcode.com/method/sgd-with-momentum#:~:text=due%20to%20momentum.-,Suppose%20we%20have%20a%20starting%20point%20A%20and%20want%20to,idea%20behind%20SGD%20with%20Momentum.
+
 SGD - Stochastic Gradient Descent
 
 # **Momentum**
