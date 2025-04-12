@@ -1,3 +1,7 @@
+[https://anhreynolds.com/img/cnn.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fanhreynolds.com%2Fblogs%2Fcnn.html&psig=AOvVaw3gokIBvvptrgKEts6tg5f0&ust=1744524759973000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiayKnr0YwDFQAAAAAdAAAAABAL)
+
+
+
 **🔍 What is a Convolutional Layer?**
 
 A Convolutional Layer is the core building block of a CNN. It’s responsible for extracting features from the input image—things like edges, textures, shapes, and more complex patterns as you go deeper.
