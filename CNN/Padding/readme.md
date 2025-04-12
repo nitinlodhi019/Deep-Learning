@@ -26,11 +26,11 @@ When you convolve without padding:
 
 ## **🧮 Types of Padding**
 
-1. Zero Padding (Most common)
+**1. Zero Padding (Most common)**
 
 * Add zeros around the border.
 
-2. Same Padding
+**2. Same Padding**
 
 * Output size = Input size
 
@@ -40,7 +40,7 @@ When you convolve without padding:
 
 * For 5x5 kernel → pad = 2
 
-3. Valid Padding
+**3. Valid Padding**
 
 * No padding applied.
 
