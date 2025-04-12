@@ -1,7 +1,18 @@
+**For GrayScale Image**
+
 ![image](https://github.com/user-attachments/assets/5ad346e5-b8ce-4ece-a883-ce8efe72daea)
 
+**For RGB Image**
 
+![image](https://github.com/user-attachments/assets/55bffef9-2cfc-4a5f-92f5-28b1612dc959)
 
+after applying filter on a RGB image channels depends on the number of filters use.
+
+input image = 6 x 6(n1 x n2) 
+
+filter = 3 x 3(m1 x m2)
+
+output image = (n1-m1+1) x (n2-m2+1)
 
 **🔍 What is a Convolutional Layer?**
 
