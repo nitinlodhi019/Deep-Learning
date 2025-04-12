@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/2b927f7a-a76f-475d-8ef0-5e84ba9fe2da)
+
+
 # **🧱 What is Padding?**
 
 Padding means adding extra pixels around the border of an image — usually filled with zeros (but sometimes other values). This is done before applying convolution.
