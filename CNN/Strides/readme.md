@@ -8,36 +8,6 @@ A stride defines how much the filter/kernel moves across the input image or feat
 
 * Larger strides mean fewer output values, i.e., downsampling.
 
-# **🧠 Formula to Calculate Output Size**
-
-Assuming:
-
-W = input width
-
-K = kernel size
-
-S = stride
-
-P = padding
-
-Output size
-=
-⌊
-𝑊
-−
-𝐾
-+
-2
-𝑃
-𝑆
-⌋
-+
-1
-Output size=⌊ 
-S
-W−K+2P
-​
- ⌋+1
 
 # **🔥 When to Use Higher Strides?**
 
