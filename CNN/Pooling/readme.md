@@ -69,3 +69,21 @@ But with pooling, especially Max Pooling, the model becomes less sensitive to sm
 
 📦 Reduces model complexity without losing critical information.
 
+## **🖼️ RGB Image = Multi-Channel Input**
+
+An RGB image has 3 channels: Red, Green, and Blue.
+
+If the image shape is H × W × 3 (for example, 224 × 224 × 3), the pooling operation is applied independently to each channel.
+
+**✅ How Pooling Works on RGB Images**
+
+*➤ Imagine:* 
+
+A 6 × 6 × 3 image with 3 channels:
+
+Red channel: 6 × 6
+
+Green channel: 6 × 6
+
+Blue channel: 6 × 6
+
