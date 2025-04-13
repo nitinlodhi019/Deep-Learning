@@ -1,3 +1,5 @@
+**There is no need of trainig in pooling layer. (it's  Non-trainable)**
+
 # **🧠 What is Pooling?**
 
 Pooling is a downsampling operation used in CNNs to reduce the spatial dimensions (width and height) of the feature maps while retaining the most important features.
