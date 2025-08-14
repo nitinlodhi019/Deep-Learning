@@ -34,102 +34,113 @@ You should consider using a pretrained model when:
 
 There are two main approaches:
 
-a) Feature Extraction
+### a) Feature Extraction
 
-Use the pretrained model as a fixed feature extractor.
+* Use the pretrained model as a fixed feature extractor.
 
-Remove the final classification layer and feed extracted features into your own classifier.
+* Remove the final classification layer and feed extracted features into your own classifier.
 
-Example: Using ResNet to get image embeddings and training a small dense network on top.
+* Example: Using ResNet to get image embeddings and training a small dense network on top.
 
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Model
 
-# Load pretrained ResNet50 without top classification layer
+#Load pretrained ResNet50 without top classification layer
+
 base_model = ResNet50(weights='imagenet', include_top=False)
 
-# Freeze layers
+#Freeze layers
+
 for layer in base_model.layers:
     layer.trainable = False
 
-b) Fine-Tuning
+### b) Fine-Tuning
 
-Start with a pretrained model, then unfreeze some or all layers and train them on your dataset.
+* Start with a pretrained model, then unfreeze some or all layers and train them on your dataset.
 
-This adjusts the pretrained weights to better suit your specific task.
+* This adjusts the pretrained weights to better suit your specific task.
 
-Works best when you have more data and your task differs slightly from the original task.
+* Works best when you have more data and your task differs slightly from the original task.
 
-# Unfreeze some layers for fine-tuning
+#Unfreeze some layers for fine-tuning
+
 for layer in base_model.layers[-20:]:
     layer.trainable = True
 
-5. Popular Pretrained Models
-For Computer Vision
+## 5. Popular Pretrained Models
 
-ImageNet-trained models: VGG, ResNet, Inception, DenseNet, EfficientNet
+### For Computer Vision
 
-Object Detection: YOLO, Faster R-CNN, SSD, DETR
+* ImageNet-trained models: VGG, ResNet, Inception, DenseNet, EfficientNet
 
-Segmentation: U-Net, DeepLabV3+
+* Object Detection: YOLO, Faster R-CNN, SSD, DETR
 
-For Natural Language Processing (NLP)
+* Segmentation: U-Net, DeepLabV3+
 
-BERT (Bidirectional Encoder Representations from Transformers)
+### For Natural Language Processing (NLP)
 
-GPT family
+* BERT (Bidirectional Encoder Representations from Transformers)
 
-RoBERTa
+* GPT family
 
-DistilBERT
+* RoBERTa
 
-XLNet
+* DistilBERT
 
-For Audio & Speech
+* XLNet
 
-Wav2Vec 2.0
+### For Audio & Speech
 
-DeepSpeech
+* Wav2Vec 2.0
 
-Whisper
+* DeepSpeech
 
-6. Advantages vs Limitations
-Advantages	Limitations
-Saves training time	Might not perfectly match your task
-Requires less data	May carry biases from training data
-Higher accuracy	Large file size
-Proven architectures	Limited flexibility if fully frozen
-7. Transfer Learning with Pretrained Models
+* Whisper
+
+## 6. Advantages vs Limitations
+
+**Advantages**	                        **Limitations**
+
+Saves training time	                    Might not perfectly match your task
+
+Requires less data	                    May carry biases from training data
+
+Higher accuracy	                        Large file size
+
+Proven architectures	                Limited flexibility if fully frozen
+
+## 7. Transfer Learning with Pretrained Models
 
 Using pretrained models is a form of Transfer Learning, where knowledge gained from one task is applied to another related task.
+
 Example: A model trained to recognize animals in general can be fine-tuned to specifically detect cats and dogs in your dataset.
 
-8. How to Choose the Right Pretrained Model?
+## 8. How to Choose the Right Pretrained Model?
 
-Match modality: Vision models for images, NLP models for text, etc.
+* Match modality: Vision models for images, NLP models for text, etc.
 
-Check dataset similarity: Closer match = less fine-tuning needed.
+* Check dataset similarity: Closer match = less fine-tuning needed.
 
-Balance performance vs size: Smaller models are faster but less accurate.
+* Balance performance vs size: Smaller models are faster but less accurate.
 
-Community & support: Choose widely used models for better documentation.
+* Community & support: Choose widely used models for better documentation.
 
-9. Resources to Find Pretrained Models
+## 9. Resources to Find Pretrained Models
 
-TensorFlow Hub → https://tfhub.dev/
+* TensorFlow Hub → https://tfhub.dev/
 
-PyTorch Hub → https://pytorch.org/hub/
+* PyTorch Hub → https://pytorch.org/hub/
 
-Hugging Face Model Hub → https://huggingface.co/models
+* Hugging Face Model Hub → https://huggingface.co/models
 
-Keras Applications → https://keras.io/api/applications/
+* Keras Applications → https://keras.io/api/applications/
 
-10. Summary
+## 10. Summary
 
-Pretrained models accelerate deep learning projects.
+* Pretrained models accelerate deep learning projects.
 
-You can extract features or fine-tune them.
+* You can extract features or fine-tune them.
 
-They are essential when you have limited data or compute power.
+* They are essential when you have limited data or compute power.
 
-Always check if the model’s original training data and architecture fit your needs.
+* Always check if the model’s original training data and architecture fit your needs.
