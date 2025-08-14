@@ -52,7 +52,7 @@ There are two main approaches:
 
     #Freeze layers
 
-    for layer in base_model.layers:
+for layer in base_model.layers:
 
     layer.trainable = False
 
