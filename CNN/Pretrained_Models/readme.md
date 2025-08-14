@@ -42,17 +42,19 @@ There are two main approaches:
 
 * Example: Using ResNet to get image embeddings and training a small dense network on top
 
+code:
+
     from tensorflow.keras.applications import ResNet50
 
     from tensorflow.keras.models import Model
 
-#Load pretrained ResNet50 without top classification layer:
+    #Load pretrained ResNet50 without top classification layer
 
     base_model = ResNet50(weights='imagenet', include_top=False)
 
     #Freeze layers
 
-for layer in base_model.layers:
+    for layer in base_model.layers
 
     layer.trainable = False
 
