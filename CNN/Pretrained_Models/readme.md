@@ -1,32 +1,36 @@
-📌 Pretrained Models in Deep Learning
-1. What is a Pretrained Model?
+# 📌 Pretrained Models in Deep Learning
+## 1. What is a Pretrained Model?
 
 A pretrained model is a deep learning model that has already been trained on a large, general-purpose dataset (e.g., ImageNet for images, Wikipedia text for NLP) and can be reused for related tasks.
 Instead of starting from scratch, we use the learned weights and features from the pretrained model to save time, computational resources, and improve accuracy.
 
-2. Why Use Pretrained Models?
+## 2. Why Use Pretrained Models?
 
 ✅ Faster Development – Skip the long and resource-heavy training process.
+
 ✅ Better Performance – Leverages knowledge from large datasets to improve results on smaller datasets.
+
 ✅ Less Data Needed – Works well even if your dataset is small.
+
 ✅ Avoid Overfitting – Pretrained models generalize better, especially for limited data.
+
 ✅ Proven Architectures – Models like ResNet, VGG, BERT are tested and optimized.
 
-3. When to Use Pretrained Models?
+## 3. When to Use Pretrained Models?
 
 You should consider using a pretrained model when:
 
-Your dataset is small or medium-sized.
+* Your dataset is small or medium-sized.
 
-Your task is similar to the task the model was originally trained for.
+* Your task is similar to the task the model was originally trained for.
 
-You have limited computational resources.
+* You have limited computational resources.
 
-You need fast prototyping.
+* You need fast prototyping.
 
-You want to improve performance with minimal training.
+* You want to improve performance with minimal training.
 
-4. How to Use Pretrained Models?
+## 4. How to Use Pretrained Models?
 
 There are two main approaches:
 
