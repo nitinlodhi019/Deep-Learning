@@ -66,10 +66,12 @@ code:
 
 * Works best when you have more data and your task differs slightly from the original task.
 
-#Unfreeze some layers for fine-tuning
+code:
 
-for layer in base_model.layers[-20:]:
-
+    #Unfreeze some layers for fine-tuning
+    
+    for layer in base_model.layers[-20:]:
+    
     layer.trainable = True
 
 ## 5. Popular Pretrained Models
@@ -104,15 +106,15 @@ for layer in base_model.layers[-20:]:
 
 ## 6. Advantages vs Limitations
 
-**Advantages**	                        **Limitations**
+**Advantages**______________________________**Limitations**
 
-Saves training time	                    Might not perfectly match your task
+Saves training time_____________________________Might not perfectly match your task
 
-Requires less data	                    May carry biases from training data
+Requires less data______________________________May carry biases from training data
 
-Higher accuracy	                        Large file size
+Higher accuracy______________________________Large file size
 
-Proven architectures	                Limited flexibility if fully frozen
+Proven architecture______________________________Limited flexibility if fully frozen
 
 ## 7. Transfer Learning with Pretrained Models
 
