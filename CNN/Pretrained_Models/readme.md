@@ -40,7 +40,7 @@ There are two main approaches:
 
 * Remove the final classification layer and feed extracted features into your own classifier.
 
-* Example: Using ResNet to get image embeddings and training a small dense network on top.
+* Example: Using ResNet to get image embeddings and training a small dense network on top:
 
     from tensorflow.keras.applications import ResNet50
 
