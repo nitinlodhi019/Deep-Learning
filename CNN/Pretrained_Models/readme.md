@@ -40,13 +40,13 @@ There are two main approaches:
 
 * Remove the final classification layer and feed extracted features into your own classifier.
 
-* Example: Using ResNet to get image embeddings and training a small dense network on top:
+* Example: Using ResNet to get image embeddings and training a small dense network on top
 
     from tensorflow.keras.applications import ResNet50
 
     from tensorflow.keras.models import Model
 
-    #Load pretrained ResNet50 without top classification layer
+#Load pretrained ResNet50 without top classification layer:
 
     base_model = ResNet50(weights='imagenet', include_top=False)
 
