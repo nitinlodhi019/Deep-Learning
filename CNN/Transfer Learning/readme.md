@@ -51,11 +51,17 @@ Task is similar to original pre-trained task.
 Key Differences
 ```bash
 Aspect	                Feature Extraction	            Fine-Tuning
+
 Layers Trained	        Only new output layer	          Some or all pre-trained layers + new layer
+
 Weights Update	        Frozen (no updates)	            Partially or fully updated
+
 Dataset Size	          Small	                          Moderate to large
+
 Task Similarity	        Similar to pre-trained task	    Can be different from pre-trained task
+
 Flexibility	Less        flexible	                      More flexible
+
 Risk of Overfitting	    Low	                            Higher
 ```
 
